@@ -1,0 +1,30 @@
+{
+  "name": "shadowshift",
+  "version": "2.0.0",
+  "description": "Automated Tor IP rotation tool for privacy and security testing.",
+  "main": "shadowshift.sh",
+  "scripts": {
+    "start": "sudo ./shadowshift.sh",
+    "setup": "sudo ./setup.sh",
+    "status": "sudo ./shadowshift.sh --status"
+  },
+  "keywords": [
+    "tor",
+    "ip-changer",
+    "privacy",
+    "anonymity",
+    "security",
+    "ip-rotation",
+    "linux"
+  ],
+  "author": "SyntaxSouq",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyntaxSouq/ShadowShift.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SyntaxSouq/ShadowShift/issues"
+  },
+  "homepage": "https://github.com/SyntaxSouq/ShadowShift#readme"
+}

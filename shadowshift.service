@@ -1,0 +1,12 @@
+[Unit]
+Description=ShadowShift - Automatic Tor IP Rotator
+After=network.target tor.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/shadowshift-rotator.sh
+Restart=always
+RestartSec=clear
+
+[Install]
+WantedBy=multi-user.target
