@@ -61,7 +61,7 @@ install_deps() {
     printf "%b[*] Installing required packages for %s...%b\n" "${BLUE}" "$DISTRO" "${NC}"
     case "$DISTRO" in
         arch|manjaro|blackarch|endeavouros)
-            sudo pacman -Syu --noconfirm curl tor jq xxd netcat
+            sudo pacman -Syu --noconfirm --needed curl tor jq xxd netcat
             TOR_GROUP="tor"
             ;;
         debian|ubuntu|kali|parrot|zorin|linuxmint|pop)
